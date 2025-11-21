@@ -1,36 +1,45 @@
 Attached HTML and CSS Context
-
 <div class="main-left">
-                            <!--Logo-->
-                            <div class="main-img">
-                                <img src="./img/denii.png" alt="img">
-                                <div class="img-title">
-                                    <span class="img-title">D E N I</span>
-                                </div>
-                            </div>
-                            <!--INFORMASI-->
-                            <div class="message cards" id="switchmore">
-                                <div class="des" id="des">
-                                    <i class="fa-solid fa-quote-left" aria-hidden="true"></i>
-                                    <div class="des-title"><span id="change">Hello&nbsp;World&nbsp;!</span><br><span id="change1">Beri ruang, buka jendela selebar-lebarnya. Sembunyikan waktu, dan nikmati semburat kuning di alam terbuka.</span></div>
-                                    <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                            <!--TAUTAN SOSIAL-->
-                            <div class="social" id="social"><a href="https://github.com/Waynenet" class="link" id="github" target="_blank" rel="noopener noreferrer" style="margin-left: 4px;">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
-            </a><a href="mailto:waynewu@88.com" class="link" id="email">
-                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-            </a><a href="https://t.me/Wayne3301" class="link" id="telegram" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-telegram" aria-hidden="true"></i>
-            </a><a href="https://x.com/Wayne3301" class="link" id="twitter" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-            </a><a href="tel:+19093450501" class="link" id="phone">
-                <i class="fa-solid fa-square-phone" aria-hidden="true"></i>
-            </a>
-                                <a id="link-text" style="display: none;">通过这里联系我</a>
-                            </div>
-                        </div>
+    <div class="main-img">
+        <img src="./img/denii.png" alt="img">
+        <div class="img-title">
+            <span class="img-title">D E N I</span>
+        </div>
+    </div>
+    <div class="message cards" id="switchmore">
+        <div class="des" id="des">
+            <i class="fa-solid fa-quote-left" aria-hidden="true"></i>
+            <div class="des-title">
+                <span id="change">Hello&nbsp;World&nbsp;!</span><br>
+                <span id="change1">Beri ruang, buka jendela selebar-lebarnya. Sembunyikan waktu, dan nikmati semburat kuning di alam terbuka.</span>
+            </div>
+            <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="social" id="social">
+        <a href="https://github.com/USERNAME_GITHUB_ANDA" class="link" id="github" target="_blank" rel="noopener noreferrer" style="margin-left: 4px;">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        
+        <a href="mailto:EMAIL_ANDA@DOMAIN.COM" class="link" id="email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+        </a>
+        
+        <a href="https://t.me/USERNAME_TELEGRAM_ANDA" class="link" id="telegram" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+        </a>
+        
+        <a href="https://instagram.com/USERNAME_INSTAGRAM_ANDA" class="link" id="instagram" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+        </a>
+        
+        <a href="tel:+6281227278811" class="link" id="phone">
+            <i class="fa-solid fa-square-phone" aria-hidden="true"></i>
+        </a>
+        
+        </div>
+</div>
 
 
 /* Matched Rule from user-agent */
