@@ -19,33 +19,31 @@ const ap = new APlayer({
     {
       name: "Terhubung",
       artist: "Yeshua Abraham",
-      url: 'https://drive.google.com/uc?export=download&id=1UXzpAQSgeIOnyhyL-dQVUbXSVPsbPRjC' // Ganti dengan Link ini,
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763807995/Yeshua-Abraham-Terhubung_krk78b.mp3", // Ganti dengan Link ini,
       cover: "./img/denii.png",
     },
     {
       name: "KAU MENGENAL HATIKU",
       artist: "Yeshua Abraham",
-      url: 'https://drive.google.com/uc?export=download&id=17Kn4WwDnQ6_M0YVV74uisI8WKEUlyGqT // Ganti dengan Link ini
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763807992/KAU-MENGENAL-HATIKU_wa4orx.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "MengenalMu",
       artist: "Yeshua Abraham",
-      url: 'https://drive.google.com/uc?export=download&id=1WWFTE58sU9DQKFqx18iyBYUQtdXc3Czk // Ganti dengan Link ini,
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763808000/MengenalMu-Yeshua-Abraham_m5xk7e.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "Saat Teduh: Yesusku Kau Terindah",
       artist: "Yeshua Abraham",
-      url: 'https://drive.google.com/uc?export=download&id=1b_mgAnRrndl2eTf8_NN6RbWOJU-48hsa // Ganti dengan Link ini,
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763808023/Saat-Teduh-Yesusku-Kau-Terindah_zkf29l.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "Kumilik-Mu",
       artist: "JPCC-Worship",
-      url: 'https://drive.google.com/uc?export=download&id=1rbIjg8nX79DiF20LgwzPhHxKRUbur8bv // Ganti dengan link ini,
-      cover: "./img/denii.png",
-    },
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763807996/Kumilik-Mu-JPCC_qnlw9f.mp3",
       cover: "./img/denii.png",
     },
   ],
