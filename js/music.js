@@ -19,31 +19,33 @@ const ap = new APlayer({
     {
       name: "Terhubung",
       artist: "Yeshua Abraham",
-      url: 'https://dl.dropboxusercontent.com/s/abcdef123/Yeshua-Abraham-Terhubung.mp3"?raw=1,
+      url: 'https://drive.google.com/uc?export=download&id=1UXzpAQSgeIOnyhyL-dQVUbXSVPsbPRjC' // Ganti dengan Link ini,
       cover: "./img/denii.png",
     },
     {
       name: "KAU MENGENAL HATIKU",
       artist: "Yeshua Abraham",
-      url: 'https://dl.dropboxusercontent.com/s/abcdef456/KAU-MENGENAL-HATIKU.mp3"?raw=1,
+      url: 'https://drive.google.com/uc?export=download&id=17Kn4WwDnQ6_M0YVV74uisI8WKEUlyGqT // Ganti dengan Link ini
       cover: "./img/denii.png",
     },
     {
       name: "MengenalMu",
       artist: "Yeshua Abraham",
-      url: 'https://dl.dropboxusercontent.com/s/abcdef789/MengenalMu-Yeshua-Abraham.mp3"?raw=1,
+      url: 'https://drive.google.com/uc?export=download&id=1WWFTE58sU9DQKFqx18iyBYUQtdXc3Czk // Ganti dengan Link ini,
       cover: "./img/denii.png",
     },
     {
       name: "Saat Teduh: Yesusku Kau Terindah",
       artist: "Yeshua Abraham",
-      url: 'https://dl.dropboxusercontent.com/s/abcdef101112/Saat-Teduh-Yesusku-Kau-Terindah.mp3"?raw=1,
+      url: 'https://drive.google.com/uc?export=download&id=1b_mgAnRrndl2eTf8_NN6RbWOJU-48hsa // Ganti dengan Link ini,
       cover: "./img/denii.png",
     },
     {
       name: "Kumilik-Mu",
       artist: "JPCC-Worship",
-      url: 'https://www.dropbox.com/s/abcdef131415/Kumilik-Mu-JPCC.mp3"?raw=1,
+      url: 'https://drive.google.com/uc?export=download&id=1rbIjg8nX79DiF20LgwzPhHxKRUbur8bv // Ganti dengan link ini,
+      cover: "./img/denii.png",
+    },
       cover: "./img/denii.png",
     },
   ],
