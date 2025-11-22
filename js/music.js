@@ -19,7 +19,7 @@ const ap = new APlayer({
         {
             name: 'Terhubung', 
             artist: 'Yeshua Abraham', 
-            url: './music/Terhubung.mp3',
+            url: './music/Yeshua-Abraham-Terhubung.mp3',
             cover: './img/denii.png', 
         },
         {
@@ -31,7 +31,7 @@ const ap = new APlayer({
         {
             name: 'MengenalMu', 
             artist: 'Yeshua Abraham', 
-            url: './music/MengenalMu.mp3',
+            url: './music/MengenalMu-Yeshua-Abraham.mp3',
             cover: './img/denii.png', 
         },
         {
@@ -43,7 +43,7 @@ const ap = new APlayer({
         {
             name: 'Kumilik-Mu', 
             artist: 'JPCC-Worship', 
-            url: './music/Kumilik-Mu.mp3',
+            url: './music/Kumilik-Mu-JPCC.mp3',
             cover: './img/denii.png',
         }     
     ]
