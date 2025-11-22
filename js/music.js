@@ -19,31 +19,31 @@ const ap = new APlayer({
     {
       name: "Terhubung",
       artist: "Yeshua Abraham",
-      url: "./music/Yeshua-Abraham-Terhubung.mp3",
+      url: "/music/Yeshua-Abraham-Terhubung.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "KAU MENGENAL HATIKU",
       artist: "Yeshua Abraham",
-      url: "./music/KAU-MENGENAL-HATIKU.mp3",
+      url: "/music/KAU-MENGENAL-HATIKU.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "MengenalMu",
       artist: "Yeshua Abraham",
-      url: "./music/MengenalMu-Yeshua-Abraham.mp3",
+      url: "/music/MengenalMu-Yeshua-Abraham.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "Saat Teduh: Yesusku Kau Terindah",
       artist: "Yeshua Abraham",
-      url: "./music/Saat-Teduh-Yesusku-Kau-Terindah.mp3",
+      url: "/music/Saat-Teduh-Yesusku-Kau-Terindah.mp3",
       cover: "./img/denii.png",
     },
     {
       name: "Kumilik-Mu",
       artist: "JPCC-Worship",
-      url: "./music/Kumilik-Mu-JPCC.mp3",
+      url: "/music/Kumilik-Mu-JPCC.mp3",
       cover: "./img/denii.png",
     },
   ],
@@ -156,17 +156,29 @@ $("#music-open").on("click", function () {
   }
 });
 
-//音量调节
-$("#volume").on("input propertychange touchend", function () {
-  let x = $("#volume").val();
-  ap.volume(x, true);
-  if (x == 0) {
-    $("#volume-ico").html("<i class='fa-solid fa-volume-xmark'></i>");
-  } else if (x > 0 && x <= 0.3) {
-    $("#volume-ico").html("<i class='fa-solid fa-volume-off'></i>");
-  } else if (x > 0.3 && x <= 0.6) {
-    $("#volume-ico").html("<i class='fa-solid fa-volume-low'></i>");
-  } else {
-    $("#volume-ico").html("<i class='fa-solid fa-volume-high'></i>");
-  }
+    //音量调节
+    $("#volume").on("input propertychange touchend", function () {
+      let x = $("#volume").val();
+      ap.volume(x, true);
+      if (x == 0) {
+        $("#volume-ico").html("<i class='fa-solid fa-volume-xmark'></i>");
+      } else if (x > 0 && x <= 0.3) {
+        $("#volume-ico").html("<i class='fa-solid fa-volume-off'></i>");
+      } else if (x > 0.3 && x <= 0.6) {
+        $("#volume-ico").html("<i class='fa-solid fa-volume-low'></i>");
+      } else {
+        $("#volume-ico").html("<i class='fa-solid fa-volume-high'></i>");
+      }
+    });
+  },
+  error: function () {
+    setTimeout(function () {
+      iziToast.info({
+        timeout: 8000,
+        icon: "fa-solid fa-circle-exclamation",
+        displayMode: "replace",
+        message: "音乐播放器加载失败",
+      });
+    }, 3800);
+  },
 });
