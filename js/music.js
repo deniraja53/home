@@ -2,27 +2,52 @@ let server = "tencent"; // Opsi server: netease (NetEase Cloud Music); tencent (
 let type = "playlist"; // song: Lagu Tunggal; playlist: Daftar Putar; album: Album
 let id = "7476871946"; // ID Sampul / ID Lagu Tunggal / ID Daftar Putar
 
-$.ajax({
-  url:
-    "https://api.injahow.cn/meting/?server=" +
-    server +
-    "&type=" +
-    type +
-    "&id=" +
-    id, //jsonTindakan Anda
-  type: "GET",
-  dataType: "JSON",
-  success: function (data) {
-    const ap = new APlayer({
-      container: document.getElementById("aplayer"),
-      order: "random",
-      preload: "auto",
-      listMaxHeight: "336px",
-      volume: "0.5",
-      mutex: true,
-      lrcType: 3,
-      audio: data,
-    });
+// Konfigurasi APlayer untuk Playlist Lokal (MP3)
+const ap = new APlayer({
+    container: document.getElementById('aplayer'), // Player di sidebar
+    fixed: false,
+    autoplay: true, // Ubah ke false jika tidak ingin auto-play
+    theme: '#b7daff',
+    loop: 'all', // all (ulang semua), one (ulang satu lagu), none (tidak ulang)
+    order: 'random', // random (acak) atau normal
+    preload: 'auto',
+    volume: 0.7,
+    mutex: true,
+    listFolded: false, // Daftar lagu terbuka saat dimuat
+    listMaxHeight: '150px',
+    audio: [
+        {
+            name: 'Terhubung', 
+            artist: 'Yeshua Abraham', 
+            url: './music/Terhubung.mp3',
+            cover: './img/denii.png', 
+        },
+        {
+            name: 'KAU MENGENAL HATIKU', 
+            artist: 'Yeshua Abraham', 
+            url: './music/KAU-MENGENAL-HATIKU.mp3',
+            cover: './img/denii.png',
+        },
+        {
+            name: 'MengenalMu', 
+            artist: 'Yeshua Abraham', 
+            url: './music/MengenalMu.mp3',
+            cover: './img/denii.png', 
+        },
+        {
+            name: 'Saat Teduh: Yesusku Kau Terindah', 
+            artist: 'Yeshua Abraham', 
+            url: './music/Saat-Teduh-Yesusku-Kau-Terindah.mp3',
+            cover: './img/denii.png',
+        }
+        {
+            name: 'Kumilik-Mu', 
+            artist: 'JPCC-Worship', 
+            url: './music/Kumilik-Mu.mp3',
+            cover: './img/denii.png',
+        }     
+    ]
+});
     $("#volume-ico").html("<i class='fa-solid fa-volume-low'></i>");
 
     /* 底栏歌词 */

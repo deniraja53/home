@@ -32,10 +32,7 @@ function setBgImgInit() {
 
   switch (bg_img["type"]) {
     case "1":
-      $("#bg").attr(
-        "src",
-        `./img/background${1 + ~~(Math.random() * 10)}.webp`
-      ); //随机默认壁纸
+      $("#bg").attr("src", `./img/background${1 + ~~(Math.random() * 10)}.jpg`); //随机默认壁纸
       break;
     case "2":
       $("#bg").attr("src", "https://api.dujin.org/bing/1920.php"); //必应每日
