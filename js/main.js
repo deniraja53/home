@@ -203,7 +203,7 @@ const socialLinks = [
     id: "telegram",
     hint: "Silakan kirim telegram",
     icon: "fa-brands fa-telegram",
-    url: "...",
+    url: "URL...",
     target: "_blank",
   },
   {

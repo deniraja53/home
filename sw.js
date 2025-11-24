@@ -172,4 +172,26 @@ console.log(
   styleTitle1,
   styleTitle2,
   styleContent
-);
+); // Konfigurasi APlayer untuk Playlist Lokal (MP3)
+export const ap = new APlayer({
+  container: document.getElementById("aplayer"),
+  fixed: false,
+  autoplay: true,
+  theme: "#b7daff",
+  loop: "all",
+  order: "random",
+  preload: "auto",
+  volume: 0.7,
+  mutex: true,
+  listFolded: false,
+  listMaxHeight: "150px",
+  audio: [
+    {
+      name: "Saat Teduh: Yesusku Kau Terindah",
+      artist: "Yeshua Abraham",
+      // Hanya gunakan link Cloudinary yang sudah terbukti benar
+      url: "https://res.cloudinary.com/dzf8k6xcp/video/upload/v1763808023/Saat-Teduh-Yesusku-Kau-Terindah_zkf29l.mp3",
+      cover: "./img/denii.png",
+    },
+  ],
+});

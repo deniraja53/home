@@ -1,10 +1,10 @@
 {
     "lang": "zh-CN",
     "dir": "ltr",
-    "name": "WayneのHome",
-    "description": "WayneのHome",
+    "name": "DeniのHome",
+    "description": "DeniのHome",
     "display": "standalone",
-    "short_name": "Wayne",
+    "short_name": "Deni",
     "scope": "/",
     "start_url": "/",
     "theme_color": "#0d0d0d",
